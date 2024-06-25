@@ -6,48 +6,104 @@
     <title>Michis SL</title>
     <link rel="shortcut icon" href="img/huella-michi.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body>
-    <nav>
+<body class="body">
+    <header class="header">
         <picture class="img-icono">   
-            <img src="img/icono-mischis.png" alt="huella de gato">
+            <img src="img/MICHIS.png" alt="logo de michis">
         </picture>
-        <ul class="nav">
-            <li class="nav__link"><a href="#">INICIO</a></li>
-            <li class="nav__link"><a href="#">QUIENES SOMOS</a></li>
-            <li class="nav__link"><a href="#">CONTACTO</a></li>
-
-            <li class="nav__link"><a href="#"></a>
-                <div class="sub-menu">
-                    <button id="botton-michi">MICHIS</button>
-                    <div class="menu-opcion">
-                    <a href="#">ADOPCIÓN</a>
-                    <a href="#">PERDIDOS</a>
-                    </div>
-                </div>
-            </li>
-
-            <li class="nav__link"><a href="#">HISTORIAS</a></li>
-        </ul>
-    </nav>
+        <nav class="navbar">
+            <input type="checkbox" id="menu">
+            <label for="menu" class="bars-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="navbar-list">
+                <li><a class="nav_link" href="#">INICIO</a></li>
+                <li><a class="nav_link" href="#">QUIENES SOMOS</a></li>
+                <li><a class="nav_link" href="#">CONTACTO</a></li>
+                <li><a class="nav_link" href="#">HISTORIAS</a></li>
+            </ul>
+        </nav>
+    </header>
     <main class="hero">
         <section class="seccion-portada">
             <div class="portada-1">
                 <h1>Tu hogar, su paraíso: Adopta un gato y dale un nuevo comienzo.</h1>
-                <p>"Adoptar un gato es una decisión que debe tomarse con seriedad y responsabilidad. En esta página, encontrarás información valiosa para que puedas conocer todo lo que implica tener un felino en tu hogar y asegurarte de que tanto tú como tu nuevo michi sean felices."</p>
+                <p>"En esta página, encontrarás información valiosa para que puedas conocer todo lo que implica tener un felino en tu hogar y asegurarte de que tanto tú como tu nuevo michi sean felices."</p>
                 <form class="btn-portada-1" >
-                        <button id="btn-info">MÁS INFO</button>
-                        <button id="btn-adoptar">ADOPTAR</button>
+                        <button >+INFO</button>
+                        <button >ADOPTAR</button>
                 </form>
             </div>
             <div class="portada-2">
-                <img src="img/icono-mischis.png" alt="logo">
+                <img src="img/MICHIS.png" alt="logo">
             </div>
         </section>
         <section class="seccion-info">
-            <h2> ¿Por qué adoptar un Michi en lugar de comprarlo?</h2>
+            <h2> ¿Por qué adoptar un Michi adulto sin hogar?</h2>
             <p>Adoptar un michi es una decisión que debe tomarse con seriedad y responsabilidad. Al adoptar, le estás dando una segunda oportunidad a un michino que ha sido abandonado o maltratado. Además, estás contribuyendo a reducir la sobrepoblación felina y a disminuir el sufrimiento de estos animalitos.</p>
         </section>
+        <section class="seccion-cards">
+            <h2>Adoptar un gato es un compromiso: ¡Infórmate antes de amar!</h2>
+            <p>Adoptar un gato no solo significa brindarle un hogar a un animal necesitado, sino también abrir tu corazón a una experiencia llena de amor, ronroneos y compañía incondicional. ¡Infórmate, prepárate y comienza tu viaje de adopción responsable!</p>
+            <div class="seccion-cards-tarjetas">
+                <article class="cards">
+                    <a href="">
+                        <img src="img/hogar.jpg" alt="casa de gatos">
+                        <h3>Preparación del hogar</h3>
+                        <p>Cómo preparar tu hogar para la llegada de un gato?, incluyendo la compra de accesorios básicos, la creación de un espacio seguro y la adaptación del entorno.</p>
+                    </a>
+                </article>
+                <article class="cards">
+                    <a href="#">
+                        <img src="img/ciudados.jpg" alt="gato en veterinario">
+                        <h3>Cuidados básicos</h3>
+                        <p>Descubre aquí los cuidados diarios que necesita un gato, como alimentación, higiene, ejercicio y atención veterinaria.</p>
+                    </a>
+                </article>
+                <article class="cards">
+                    <a href="#">
+                        <img src="img/bienestar.jpg" alt="gato feliz">
+                        <h3>Salud y bienestar</h3>
+                        <p>aquí podras aprender sobre la salud física y mental de los gatos, incluyendo enfermedades comunes, señales de alerta y la importancia del bienestar emocional.</p>
+                    </a>
+                </article>
+                <article class="cards">
+                    <a href="#">
+                        <img src="img/comportamiento.jpg" alt="gato mordiendo">
+                        <h3>Comportamiento felino</h3>
+                        <p>Conoce el comportamiento natural de los gatos, incluyendo su lenguaje corporal, hábitos y necesidades de socialización.</p>
+                    </a>
+                </article>
+            </div>                                 
+        </section>
     </main>
+    <section class="contenedor-footer">
+            <div class="contactos-imagen">
+                <div class="redes">
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-threads-fill"></i></a>
+                    <a href=""><i class="bi bi-discord"></i></a>
+                </div>
+                <div class="contactos-links">
+                    <h2>CONTACTANOS</h2>
+                    <a href=""><i class="bi bi-geo-alt-fill"></i> Avenida Siempreviva 742</a>
+                    <a href=""><i class="bi bi-envelope-at-fill"></i> michissl@gmail.com</a>
+                    <a href=""><i class="bi bi-telephone-fill"></i> 2664010110</a>
+                    <a href=""><i class="bi bi-whatsapp"> 2664234567</i></a>
+                </div>
+                <div class="imagen-footer">
+                    <img src="img/Contacto.JPG" alt="celular">
+                </div>
+            </div>
+    </section>
+    <footer class="logo-footer">
+        <img src="img/MICHIS.png" alt="logo de michis">
+                <p>&copy; MICHIS SL</p>
+    </footer>
 </body>
 </html>
