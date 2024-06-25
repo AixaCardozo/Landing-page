@@ -28,7 +28,7 @@
     padding: 0.25rem 3rem;
     font-size: 1rem;
     width: 100vmax;
-    height: 3rem;
+    height: 2rem;
     font-weight: 700;
     position: fixed;
     box-shadow: 0 8px 4px rgba(0, 0, 0, 0.2);   
@@ -56,7 +56,7 @@
 .nav_link {
     text-decoration: none;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: snow;
     text-shadow: 3px 3px 3px #0303035e;
 }
@@ -73,7 +73,7 @@
 
 #menu:checked ~ .bars-menu span:nth-child(1) {
     position: absolute;
-    top: 1.5rem;
+    top: 1rem;
     transform: rotate(135deg);
 }
 
@@ -83,7 +83,7 @@
 
 #menu:checked ~ .bars-menu span:nth-child(3) {
     position: absolute;
-    top: 1.5rem;
+    top: 1rem;
     transform: rotate(225deg);
 }
 
@@ -96,8 +96,8 @@
 
 .img-icono img {
     border-radius: 4rem;
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 
@@ -110,8 +110,8 @@
         width: 90%;
         height: calc(100vh - 50px);
         position: absolute;
-        top:3rem;
-        left:3rem;
+        top:2rem;
+        left:2rem;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -157,7 +157,7 @@
 }
 
 .portada-1 {
-    padding-top: 6rem;
+    padding-top: 3rem;
     width:50%;
     height: 100%;
     border-radius: 3rem;
@@ -165,11 +165,11 @@
     flex-direction: column;
     justify-content:left;
     align-items: center;
-    gap: 3rem;
+    gap: 1.5rem;
 }
 
 .portada-1 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight:900;
     color: snow;
     text-shadow: 4px 4px 4px #03030379;
@@ -244,15 +244,15 @@
     .portada-1,
     .portada-2 {
         width: 100%;
-        padding-top: 2rem;
-        gap: 1rem;
+        padding-top: 3rem;
+        gap: 3rem;
     }
     .portada-1 h1 {
-        font-size: 4rem;
+        font-size: 5rem;
         padding: 0.5rem 2rem;
     }
     .portada-1 p {
-        font-size: 2rem;
+        font-size: rem;
         padding: 0.5rem 2rem;
     }
     .btn-portada-1 {
@@ -284,7 +284,7 @@
     display: flex;
     flex-direction: column;
     align-items:center;
-    gap: 4rem;
+    gap:2rem;
     padding: 30px;
     text-align: center;
 }
@@ -297,7 +297,7 @@
 }
 
 .seccion-info p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 750;
     color:black;
     text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.589);
@@ -309,16 +309,16 @@
 
 @media (max-width: 1200px) {
     .seccion-info {
-        padding: 1.5rem 2rem;
-        gap: 1.5rem;
+        padding: 4rem 3rem;
+        gap: 5rem;
     }
     .seccion-info h2 {
-        font-size: 3rem;
+        font-size: 4rem;
     }
     .seccion-info p {
         font-size: 2rem;
         background-color: rgba(236, 225, 214, 0.233);
-        padding: 2rem;
+        padding: 1rem;
         border-radius: 2rem;
     }
 }
@@ -410,9 +410,10 @@
 
 @media (max-width: 1200px) {
     .seccion-cards {
-        padding-top: 10rem;
+        padding-top: 8rem;
         width: 100%;
         align-items: center;
+        gap:1rem; 
     }
     .seccion-cards h2 {
         font-size: 3rem;
@@ -491,7 +492,7 @@
     width: 25%;
     height: 70%;
     gap: 3rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .contactos-links a:hover {
